@@ -36,6 +36,11 @@ body {
 	object-fit: cover;
 }
 
+.comparison-caption {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
 .form-note {
 	color: #333333;
 }
@@ -110,10 +115,16 @@ footer .phone-link:focus {
 		font-size: 1.8rem;
 	}
 
-	.comparison-img {
+	.why-page .comparison-img {
 		margin-bottom: 8px;
 	}
 
+	.why-page h3 {
+		margin-top: 8px;
+		margin-bottom: 30px;
+		
+	}
+	
 	h3, h4 {
 		margin-top: 8px;
 		margin-bottom: 6px;
