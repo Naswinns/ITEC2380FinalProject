@@ -110,6 +110,19 @@ footer .phone-link:focus {
 		font-size: 1.8rem;
 	}
 
+	.comparison-img {
+		margin-bottom: 8px;
+	}
+
+	h3, h4 {
+		margin-top: 8px;
+		margin-bottom: 6px;
+	}
+
+	p {
+		margin-top: 0;
+	}
+	
 	.phone-link {
 		display: block;
 		margin-top: 5px;
