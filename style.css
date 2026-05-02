@@ -30,6 +30,20 @@ body {
 	text-decoration: underline;
 }
 
+.custom-list li {
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.custom-list li::before {
+	content: "•";
+	color: #44bce3;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
 .comparison-img {
 	width: 100%;
 	height: 350px;
