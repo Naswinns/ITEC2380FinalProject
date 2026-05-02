@@ -30,6 +30,40 @@ body {
 	text-decoration: underline;
 }
 
+.button-primary {
+	background-color: #1f5fae;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-rounded {
+	border-radius: 12px;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-rounded:hover,
+.btn-rounded:focus {
+	transform: translateY(-1px);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+	background-color: #44e3e2;
+	color: #1f1f1f;
+	text-decoration: none;
+	transform: translateY(-1px);
+}
+
+.button-primary:focus,
+.btn-rounded:focus {
+	outline: 3px solid #d9ffff;
+	outline-offset: 3px;
+}
 .custom-list li {
 	font-weight: 600;
 	margin-bottom: 6px;
@@ -62,35 +96,6 @@ body {
 .form-label {
 	color: #000000;
 	font-weight: 500;
-}
-
-.button-primary {
-	background-color: #1f5fae;
-	color: #ffffff;
-	border: none;
-	padding: 10px 20px;
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
-	transition: all 0.2s ease-in-out;
-}
-
-.btn-rounded {
-	border-radius: 12px;
-	transition: all 0.2s ease-in-out;
-}
-
-.btn-rounded:hover,
-.btn-rounded:focus {
-	transform: translateY(-1px);
-}
-
-.button-primary:hover,
-.button-primary:focus {
-	background-color: #44e3e2;
-	color: #1f1f1f;
-	text-decoration: none;
-	transform: translateY(-1px);
 }
 
 .section-light {
