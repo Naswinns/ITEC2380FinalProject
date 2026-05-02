@@ -103,55 +103,56 @@
 
 	<h2>Request Service</h2>
 
-	<p class="form-note">
-		* Name, email, device type, and service needed are required before submitting.
-	</p>
+		<p class="form-note" id="form-note">
+			* Name, email, device type, and service needed are required before submitting.
+		</p>
 
-	<form>
-		<div class="mb-3">
-			<label for="name" class="form-label">Name</label>
-			<input type="text" class="form-control" id="name" name="name" required>
-		</div>
+	<form aria-describedby="form-note">
+		
+			<div class="mb-3">
+				<label for="name" class="form-label">Name</label>
+				<input type="text" class="form-control" id="name" name="name" required aria-required="true" autocomplete="name">
+			</div>
 
-		<div class="mb-3">
-			<label for="email" class="form-label">Email Address</label>
-			<input type="email" class="form-control" id="email" name="email" required>
-		</div>
+			<div class="mb-3">
+				<label for="email" class="form-label">Email Address</label>
+				<input type="email" class="form-control" id="email" name="email" required aria-required="true" autocomplete="email">
+			</div>
 
-		<div class="mb-3">
-			<label for="phone" class="form-label">Phone Number (optional, for follow-up)</label>
-			<input type="tel" class="form-control" id="phone" name="phone" placeholder="(123) 456-7890">
-		</div>
+			<div class="mb-3">
+				<label for="phone" class="form-label">Phone Number (optional, for follow-up)</label>
+				<input type="tel" class="form-control" id="phone" name="phone" placeholder="(123) 456-7890" autocomplete="tel">
+			</div>
 
-		<div class="mb-3">
-			<label for="callTime" class="form-label">Best Time to Call</label>
-			<select class="form-select" id="callTime" name="callTime">
-				<option value="">Select a time</option>
-				<option value="morning">Morning (8am–12pm)</option>
-				<option value="afternoon">Afternoon (12pm–5pm)</option>
-				<option value="evening">Evening (5pm–8pm)</option>
-			</select>
-		</div>
+			<div class="mb-3">
+				<label for="callTime" class="form-label">Best Time to Call</label>
+					<select class="form-select" id="callTime" name="callTime">
+						<option value="">Select a time</option>
+						<option value="morning">Morning (8am–12pm)</option>
+						<option value="afternoon">Afternoon (12pm–5pm)</option>
+						<option value="evening">Evening (5pm–8pm)</option>
+					</select>
+			</div>
 
-		<div class="mb-3">
-			<label for="device" class="form-label">Device Type</label>
-			<select class="form-select" id="device" name="device" required>
-				<option value="">Select a device type</option>
-				<option>PC or Laptop</option>
-				<option>Gaming Console</option>
-				<option>Tablet</option>
-				<option>Other Device</option>
-			</select>
-		</div>
+			<div class="mb-3">
+				<label for="device" class="form-label">Device Type</label>
+					<select class="form-select" id="device" name="device" required aria-required="true">
+						<option value="">Select a device type</option>
+						<option>PC or Laptop</option>
+						<option>Gaming Console</option>
+						<option>Tablet</option>
+						<option>Other Device</option>
+					</select>
+			</div>
 
-		<div class="mb-3">
-			<label for="message" class="form-label">Service Needed</label>
-			<textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-		</div>
+			<div class="mb-3">
+				<label for="message" class="form-label">Service Needed</label>
+				<textarea class="form-control" id="message" name="message" rows="4" required aria-required="true"></textarea>
+			</div>
 
-		<button type="submit" class="button-primary btn-rounded">
-			Submit Request
-		</button>
+			<button type="submit" class="button-primary btn-rounded">
+				Submit Request
+			</button>
 	</form>
 
 </main>
