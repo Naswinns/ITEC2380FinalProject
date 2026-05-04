@@ -41,6 +41,12 @@ body {
 	text-decoration: underline;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 .button-primary {
 	background-color: #1f5fae;
 	color: #ffffff;
