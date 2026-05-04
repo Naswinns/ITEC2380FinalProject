@@ -7,6 +7,12 @@ body {
 	color: #393939;
 }
 
+.header-info {
+	font-size: 0.8rem;
+	display: block;
+	line-height: 1.2;
+}
+
 .navbar {
 	background-color: #1f5fae !important;
 }
