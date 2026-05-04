@@ -33,6 +33,16 @@ body {
 	color: #ffffff !important;
 }
 
+.navbar .nav-link {
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+
+.navbar .nav-link.active {
+	color: #ffffff !important;
+	font-weight: bold;
+}
+
 .navbar .nav-link:hover,
 .navbar .nav-link:focus,
 .navbar .phone-link:hover,
@@ -146,18 +156,6 @@ footer .phone-link:focus {
 	color: #d9ffff !important;
 	text-decoration: underline;
 }
-
-
-.navbar .nav-link {
-	color: #ffffff !important;
-	opacity: 1 !important;
-}
-
-.navbar .nav-link.active {
-	color: #ffffff !important;
-	font-weight: bold;
-}
-
 
 /*---MEDIA---*/
 
