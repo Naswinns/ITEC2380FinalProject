@@ -51,6 +51,16 @@ body {
 	text-decoration: underline;
 }
 
+.cta-section {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.cta-section .button-primary {
+	font-size: 1.1rem;
+	padding: 12px 26px;
+}
+
 .button-primary {
 	background-color: #1f5fae;
 	color: #ffffff;
