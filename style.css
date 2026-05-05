@@ -144,6 +144,11 @@ body {
 	font-size: 0.95rem;
 }
 
+.contact-info {
+	font-size: 0.95rem;
+	color: #444;
+}
+
 .contact-img {
 	max-width: 400px;
 	margin: 0 auto;
