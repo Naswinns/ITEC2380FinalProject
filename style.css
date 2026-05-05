@@ -131,6 +131,13 @@ body {
 	font-weight: 500;
 }
 
+.satisfaction-logo {
+	display: block;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .section-light {
 	background-color: #9ddcf0;
 	color: #1a1a1a; 
