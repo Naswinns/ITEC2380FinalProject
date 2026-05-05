@@ -169,7 +169,14 @@ footer .phone-link:focus {
 	}
 
 	.why-page .comparison-img {
-		margin-bottom: 8px;
+	height: auto;
+	object-fit: contain;
+	margin-bottom: 4px;
+	}
+
+	.why-page .comparison-caption {
+	margin-top: 4px;
+	margin-bottom: 16px;
 	}
 
 	h3, h4 {
