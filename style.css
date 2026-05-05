@@ -207,14 +207,14 @@ footer .phone-link:focus {
 	}
 
 	.why-page .comparison-img {
-	height: auto;
-	object-fit: contain;
-	margin-bottom: 4px;
+		height: auto;
+		object-fit: contain;
+		margin-bottom: 4px;
 	}
 
 	.why-page .comparison-caption {
-	margin-top: 4px;
-	margin-bottom: 16px;
+		margin-top: 4px;
+		margin-bottom: 16px;
 	}
 
 	h3, h4 {
@@ -223,11 +223,11 @@ footer .phone-link:focus {
 	}
 
 	.button-primary {
-	display: block;
-	width: 100%;
-	max-width: 300px;
-	margin: 15px auto;
-	padding: 12px;
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		margin: 15px auto;
+		padding: 12px;
 	}
 
 	main p:not(.comparison-caption) {
@@ -240,7 +240,7 @@ footer .phone-link:focus {
 	}
 }
 
-/**landscape fix**/
+/**landscape fix @media is still a little janky, sigh....**/
 
 @media (max-width: 900px) and (orientation: landscape) {
 
