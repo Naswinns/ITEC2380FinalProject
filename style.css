@@ -144,6 +144,12 @@ body {
 	font-size: 0.95rem;
 }
 
+.contact-top-img {
+	max-width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
 form {
 	max-width: 600px;
 	margin: 0 auto;
